@@ -17,7 +17,7 @@ HOST-SUFFIX,qq.com
 
 //支付宝
 DOMAIN-SUFFIX,alipay.com
-
+DOMAIN-SUFFIX,alipay.com.cn
 //腾讯视频
 HOST-SUFFIX,video.qq.com
 
