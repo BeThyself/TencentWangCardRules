@@ -1,10 +1,22 @@
 // ---- 免流应用(全部直连) ----
 
+// 不知道是啥
+HOST-SUFFIX,url.cn
 
 // 腾讯
 IP-CIDR,182.254.116.0/24,no-resolve
 IP-CIDR,203.205.238.0/23,no-resolve
 IP-CIDR,203.205.254.0/23,no-resolve
+user-agent,MicroMessenger%20Client
+user-agent,WeChat*
+host-suffix,gtimg.com
+host-suffix,idqqimg.com
+host-suffix,igamecj.com
+host-suffix,myapp.com
+host-suffix,myqcloud.com
+host-suffix,qq.com,DIRECT
+host-suffix,tencent.com
+host-suffix,tencent-cloud.net
 
 // 微信
 
@@ -14,10 +26,19 @@ HOST-SUFFIX,pay.weixin.qq.com
 
 //QQ
 HOST-SUFFIX,qq.com
+HOST-SUFFIX,gtimg.cn
+HOST-SUFFIX,tencent.com
+HOST,221.181.97.254
+HOST,120.232.178.217
+HOST,183.232.224.197
+HOST,120.233.17.212
+HOST,112.46.57.145
 
 //支付宝
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipay.com.cn
+DOMAIN-SUFFIX,alipayobjects.com
+
 //腾讯视频
 HOST-SUFFIX,video.qq.com
 
